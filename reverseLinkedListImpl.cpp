@@ -17,7 +17,9 @@ struct Node* Insert(struct Node* head, int data)
     Node *temp = (struct Node*)malloc(sizeof(struct Node));
     temp -> data = data;
     temp -> next = NULL;
+    //if the list is empty, the value will be added into the head position of the list
     if(head == NULL) head = temp;
+    
     else
     {
         Node* temp1 =  head;
