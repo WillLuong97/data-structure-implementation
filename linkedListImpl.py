@@ -1,3 +1,8 @@
+#Drawback of linked list: Random access is not allowed, We have to access elements sequentially starting from the first node. 
+#So we cannot do the binary search with linked list efficiently with its default implemnetation. 
+
+#Extra memory space for a pointer is required with each element of the list.
+
 # Design your implementation of the linked list. You can choose to use the singly linked list or the doubly linked list. A node in a singly linked list should have two attributes: val and next. val is the value of the current node, and next is a pointer/reference to the next node. If you want to use the doubly linked list, you will need one more attribute prev to indicate the previous node in the linked list. Assume all nodes in the linked list are 0-indexed.
 
 # Implement these functions in your linked list class:
